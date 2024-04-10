@@ -1,0 +1,30 @@
+Trabalho do 1º Bimestre - Análises de Dados Básicas
+
+Curso: ADS
+Disciplina: Inteligência Artificial
+Professor: Willian Oizumi
+Equipes: 1 a 2 integrantes por equipe
+Forma de Entrega: arquivo enviado pelo Blackboard
+Data de Entrega: 12/04/2024
+Introdução
+
+Este trabalho deve ser realizado utilizando a linguagem de programação Python 3 em conjunto com as bibliotecas pandas, matplotlib e scipy. Caso julgue necessário, outras bibliotecas também podem ser utilizadas. O trabalho pode ser entregue como um arquivo de código python (.py) ou um Jupyter Notebook (.Ipynb). Coloque comentários (ou markdowns caso  use Jupyter Notebook) indicando quais são os códigos correspondentes a cada tarefa.
+
+Considerando o conjunto de dados disponível no arquivo employee_data.csv, realize as seguintes tarefas.
+Tarefas
+
+1) Utilizando o pandas, carrega os dados do arquivo employee_data.csv em um DataFrame. Em seguida, imprima as 5 primeiras linhas do DataFrame.
+
+2) Verifique se alguma das seguintes colunas do DataFrame apresenta distribuição normal: Age, YearsAtCompany, YearsOfExperience, GrossSalary. Dica: use o gráfico de histograma (matplotlib) e o método estatístico Shapiro (scipy).
+
+3) Calcule as seguintes estatísticas descritivas para cada coluna numérica: média, mediana, desvio padrão, maior valor e menor valor. Em seguida, crie um gráfico de caixa (Box Plot) para cada coluna numérica.
+
+4) Identifique quais valores da coluna Role e da coluna Gender aparecem com maior frequência e quais aparecem com menor frequência.
+
+5) Aplique um método estatístico de correlação para identificar quais pares de colunas numéricas possuem maior correlação  entre si.
+
+6) Baseado no resultado da tarefa anterior, crie um gráfico de dispersão entre as duas colunas que apresentam maior correlação entre si.
+
+7) Crie um novo DataFrame, derivado de employee_data.csv, contendo apenas os registros em que YearsOfExperience seja maior do que 10. Imprima os 5 últimos registros deste novo DataFrame.
+
+8) Crie um novo DataFrame, derivado de employee_data.csv, removendo as colunas Gender e Age. Imprima os 5 primeiros registros deste novo DataFrame.
