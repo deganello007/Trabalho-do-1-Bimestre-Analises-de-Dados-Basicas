@@ -6,11 +6,13 @@ Professor: Willian Oizumi
 Equipes: 1 a 2 integrantes por equipe
 Forma de Entrega: arquivo enviado pelo Blackboard
 Data de Entrega: 12/04/2024
+
 Introdução
 
 Este trabalho deve ser realizado utilizando a linguagem de programação Python 3 em conjunto com as bibliotecas pandas, matplotlib e scipy. Caso julgue necessário, outras bibliotecas também podem ser utilizadas. O trabalho pode ser entregue como um arquivo de código python (.py) ou um Jupyter Notebook (.Ipynb). Coloque comentários (ou markdowns caso  use Jupyter Notebook) indicando quais são os códigos correspondentes a cada tarefa.
 
 Considerando o conjunto de dados disponível no arquivo employee_data.csv, realize as seguintes tarefas.
+
 Tarefas
 
 1) Utilizando o pandas, carrega os dados do arquivo employee_data.csv em um DataFrame. Em seguida, imprima as 5 primeiras linhas do DataFrame.
